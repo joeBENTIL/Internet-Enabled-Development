@@ -34,7 +34,7 @@
                 <div class="navbar-right">
                     <ul class="nav navbar-nav"> 
                         <li role="presentation"><a href="index.php">Home</a></li>
-                        <li role="presentation"><a href="About_Us.php"> About_Us</a></li>
+                        <li role="presentation"><a href="About_Us.php"> About Us</a></li>
                         <li role="presentation"><a href="Contact_Us.php"> Contact Me</a></li>
                         <li role="presentation"><a href="Gallery.php"> Gallery</a></li>
                         
