@@ -10,6 +10,53 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<style type="text/css">
+
+
+
+.content-block{
+  padding-top:90px;
+}
+
+
+.tpad{
+  padding-top:9px;
+}
+
+.container-min{
+
+    width:390px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+     border-radius:15px 15px 15px 15px;
+     box-shadow:0.5px 5px 20px 5px;
+     height:auto;
+    padding-top: 20px;
+  }
+
+
+  fieldset{
+  padding-top:10px;
+
+  border-radius:15px 15px 15px 15px;
+            box-shadow:0.5px 5px 20px 5px;
+            height:auto;
+            padding-top: 20px;
+
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
 </head>
 
 <body>
@@ -34,7 +81,9 @@
                 <div class="navbar-right">
                     <ul class="nav navbar-nav"> 
                         <li role="presentation"><a href="index.php">Home </a></li>
-                        <li role="presentation"><a href="About_Us.php"> About Us</a></li>
+                        <li role="presentation"><a href="About_Us.php"> About 
+
+                          Us</a></li>
                         <li role="presentation"><a href="Contact_Us.php"> Contact Me</a></li>
                         <li role="presentation"><a href="Gallery.php"> Gallery</a></li>
                         
@@ -53,14 +102,22 @@
 
               </nav>
    
-     <div class="container">
+
+
+   <div class="content-block">
+    <div class="container">
+
+
+    <fieldset>
    <form class="form-horizontal" role="form" method="post" action="index.php">
   <div class="form-group">
     <label for="name" class="col-sm-2 control-label">Name</label>
+
     <div class="col-sm-10">
       <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
     </div>
   </div>
+
      <div class="form-group">
     <label for="email" class="col-sm-2 control-label">Email</label>
     <div class="col-sm-10">
@@ -93,7 +150,10 @@
     </div>
   </div>
 </div>
-</form
+</div>
+</fieldset>
+</form>
+
 
               
 

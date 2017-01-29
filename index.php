@@ -3,6 +3,10 @@
 <head>
 <title>Joe Bentil Website</title>
 
+
+  <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" >
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
@@ -53,44 +57,45 @@
 
               </nav>
                
-  <div class="">
-  <div id="carousel-example-generic " class="carousel slide" data-ride="carousel" data-interval="2000">
-
+ <div class="">
+  <div id="carousel-example-generic " class="carousel slide" data-ride="carousel" data-interval="4000">
                                       <!-- Indicators --> 
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            </ol>
-           
+
+           <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+
                                                         <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-          <div class="item active">
-          <img src=" img/meme.jpg"alt="...">
-          <div class="carousel-caption">
-          <h3></h3>
-          </div>
-          </div>
-          <div class="item">
-          <img src="img/.jpg"alt="...">     
-          <div class="carousel-caption">
-          <h4></h4>
-          </div>
-          </div>
-          <div class="item">
-          <img src="img/.jpg" alt="...">        
-          <div class="carousel-caption">
-          <h3> </h3>
-          </div>
-          </div>
-          <div class="item">
-          <img src="img/.png" alt="...">
-          <div class="carousel-caption">
-          <h3></h3>
-          </div>
-          </div>
-          </div>
+<div class="carousel-inner">
+<div class="item active">
+<img src=" img/no_1.jpg"alt="...">
+<div class="carousel-caption">
+<h3> Life is so beautiful When i see your eyes and smile</h3>
+</div>
+</div>
+<div class="item">
+<img src="img/j2.jpg"alt="...">     
+<div class="carousel-caption">
+<h4> Your Smiles always make me super Happy</h4>
+</div>
+</div>
+<div class="item">
+<img src="img/no_3.jpg" alt="...">        
+<div class="carousel-caption">
+<h3>  Beautiful as you are ....forever be the same</h3>
+</div>
+</div>
+<div class="item">
+<img src="img/b2.jpg" alt="...">
+<div class="carousel-caption">
+<h3>God's loving Nature</h3>
+</div>
+</div>
+</div>
            
                                                                  <!-- Controls -->
           <a class="carousel-control left" href ="#carousel-example-generic" data-slide="prev">
@@ -117,5 +122,11 @@
             </div>
 
 
+
+
+
+
+  <script src="jquery/jquery-2.1.4.min.js"></script>
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

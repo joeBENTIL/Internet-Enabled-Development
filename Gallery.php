@@ -21,6 +21,33 @@
 <script type="text/javascript" src="jquery.bsPhotoGallery.js"></script>
 <script type="text/javascript" src="jquery.bsPhotoGallery"></script>
 
+
+<style type="text/css">
+
+
+
+.content-block{
+  padding-top:90px;
+}
+
+
+.tpad{
+  padding-top:9px;
+}
+
+.container-min{
+
+    width:390px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+     border-radius:15px 15px 15px 15px;
+     box-shadow:0.5px 5px 20px 5px;
+     height:auto;
+    padding-top: 20px;
+  }
+</style>
+
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -83,13 +110,13 @@
 
               </nav>
 
-      
+       <div class="content-block">
        <div class="container">
         <ul class="row">
         
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
         
-            <img class="img-responsive" src="img/photodune-174908-rocking-the-night-away-xs.jpg">
+            <img class="img-responsive" style="padding-top:11px;"  src="img/photodune-174908-rocking-the-night-away-xs.jpg">
         
           </li>
         
@@ -119,14 +146,14 @@
         
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
         
-            <img class="img-responsive" src="img/photodune-2361384-culture-for-business-xs.jpg">
+            <img class="img-responsive" src="img/Calli_gh 20160807_131809.jpg">
         
           </li>
 
 
            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
         
-            <img class="img-responsive" src="img/photodune-2361384-culture-for-business-xs.jpg">
+            <img class="img-responsive" src="img/joeb.png">
         
           </li>
 
@@ -263,6 +290,7 @@
         
           </li>
   </ul>
+</div>
 </div>
 
 
